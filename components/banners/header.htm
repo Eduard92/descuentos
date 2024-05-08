@@ -1,0 +1,29 @@
+<style>
+  .TopBanner__description__kDf  p {
+ /* Estilos CSS aquí */
+ color: #ffffff;
+ line-height: 1.5;
+ margin-top: .8rem;
+ margin-bottom: .8rem;
+ word-spacing: 2pt;
+ font-size: 18px;
+}
+
+.TopBanner__description__kDf  p strong{
+ /* Estilos CSS aquí */
+ color:#ffffff;text-decoration: underline; font-weight: 600;
+}
+
+</style>
+{% if banner %}
+<div class="TopBanner__container__eJpQE" id="bannerdiv" >
+      <div class="TopBanner__descriptionContainer__v5g8C">
+          <div class="TopBanner__description__kDf" style="color: rgb(45, 63, 83);">
+
+            {{banner|raw}}
+            
+          </div>
+      </div>
+      <button class="TopBanner__closeButton__QeTrb" type="button" onclick="ocultarBanner()" aria-label="close-top-banner"></button>
+  </div>
+  {% endif %}

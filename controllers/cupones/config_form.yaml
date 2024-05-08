@@ -1,0 +1,10 @@
+name: Cupones
+form: $/eduard/descuentos/models/cupones/fields.yaml
+modelClass: Eduard\Descuentos\Models\Cupones
+defaultRedirect: eduard/descuentos/cupones
+create:
+    redirect: 'eduard/descuentos/cupones/update/:id'
+    redirectClose: eduard/descuentos/cupones
+update:
+    redirect: eduard/descuentos/cupones
+    redirectClose: eduard/descuentos/cupones

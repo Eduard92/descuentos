@@ -1,0 +1,10 @@
+name: Banner
+form: $/eduard/descuentos/models/banner/fields.yaml
+modelClass: Eduard\Descuentos\Models\Banner
+defaultRedirect: eduard/descuentos/banner
+create:
+    redirect: 'eduard/descuentos/banner/update/:id'
+    redirectClose: eduard/descuentos/banner
+update:
+    redirect: eduard/descuentos/banner
+    redirectClose: eduard/descuentos/banner

@@ -1,0 +1,35 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Updated table eduard_descuentos_cupones'
+    - builder_table_update_eduard_descuentos_cupones.php
+1.0.3:
+    - 'Updated table eduard_descuentos_cupones'
+    - builder_table_update_eduard_descuentos_cupones_2.php
+1.0.4:
+    - 'Updated table eduard_descuentos_cupones'
+    - builder_table_update_eduard_descuentos_cupones3.php
+1.0.5:
+    - 'Updated table eduard_descuentos_cupones'
+    - builder_table_update_eduard_descuentos_cupones_3.php
+1.0.6:
+    - 'Created table eduard_descuentos_cupones_html'
+    - builder_table_create_eduard_descuentos_cupones_html.php
+1.0.7:
+    - 'Updated table eduard_descuentos_cupones_html'
+    - builder_table_update_eduard_descuentos_cupones_html.php
+1.0.8:
+    - 'Updated table eduard_descuentos_cupones_html'
+    - builder_table_update_eduard_descuentos_cupones_banner.php
+1.0.9:
+    - 'Updated table eduard_descuentos_cupones_banner'
+    - builder_table_update_eduard_descuentos_cupones_banner_2.php
+1.0.10:
+    - 'Updated table eduard_descuentos_cupones_banner'
+    - builder_table_update_eduard_descuentos_cupones_banner_3.php
+1.0.11:
+    - 'Updated table eduard_descuentos_cupones_banner'
+    - builder_table_update_eduard_descuentos_cupones_banner_4.php
+1.0.12:
+    - 'Updated table eduard_descuentos_cupones_banner'
+    - builder_table_update_eduard_descuentos_cupones_banner_5.php

@@ -1,0 +1,48 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+        sortable: true
+    cupon:
+        label: cupon
+        type: text
+        searchable: true
+        sortable: true
+    inicio:
+        label: inicio
+        type: text
+        sortable: true
+    fin:
+        label: fin
+        type: text
+        sortable: true
+    descuento:
+        label: descuento
+        type: number
+        sortable: true
+    descripcion:
+        label: descripcion
+        type: text
+    activo:
+        label: activo
+        type: text
+        invisible: true
+        sortable: true
+    monto_minimo:
+        label: 'Monto Minimo'
+        type: number
+        sortable: true
+    dias_minimo:
+        label: 'Minimo de dias'
+        type: number
+        sortable: true
+    tipo:
+        label: Tipo
+        type: text
+        searchable: true
+        sortable: true
+    count:
+        label: Usado
+        type: number
+        sortable: true

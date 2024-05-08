@@ -1,0 +1,28 @@
+plugin:
+    name: 'eduard.descuentos::lang.plugin.name'
+    description: 'eduard.descuentos::lang.plugin.description'
+    author: Eduard
+    icon: oc-icon-ticket
+    homepage: ''
+navigation:
+    descuentos:
+        label: 'eduard.descuentos::lang.plugin.name'
+        url: eduard/descuentos/cupones
+        icon: icon-ticket
+        permissions:
+            - descuentos.admin
+        sideMenu:
+            side-menu-item:
+                label: 'eduard.descuentos::lang.descuentos-cupones'
+                url: /eduard/descuentos/cupones
+                icon: icon-certificate
+                permissions:
+                    - descuentos.admin
+            side-menu-banner:
+                label: Banner
+                url: /eduard/descuentos/banner
+                icon: icon-bars
+permissions:
+    descuentos.admin:
+        tab: 'eduard.descuentos::lang.plugin.name'
+        label: 'Administrar Descuentos'

@@ -1,0 +1,4 @@
+title: Cupones
+modelClass: Eduard\Descuentos\Models\Cupones
+toolbar:
+    buttons: reorder_toolbar

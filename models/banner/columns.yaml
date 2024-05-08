@@ -1,0 +1,13 @@
+columns:
+    id:
+        label: id
+        type: number
+    html:
+        label: html
+        type: text
+    activo:
+        label: activo
+        type: number
+    created_at:
+        label: created_at
+        type: datetime

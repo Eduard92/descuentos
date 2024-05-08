@@ -1,0 +1,12 @@
+list: $/eduard/descuentos/models/cupones/columns.yaml
+modelClass: Eduard\Descuentos\Models\Cupones
+title: Cupones
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'eduard/descuentos/cupones/update/:id'

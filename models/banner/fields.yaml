@@ -1,0 +1,15 @@
+fields:
+    html:
+        label: Banner
+        size: large
+        span: full
+        type: richeditor
+    valido:
+        label: 'Valido hasta'
+        mode: date
+        span: auto
+        type: datepicker
+    activo:
+        label: Activo
+        span: auto
+        type: switch
